@@ -1,0 +1,1349 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+#base {
+  background-color: #d9d9d9;
+  background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
+  /* Header */ /* Sección intro */
+  /* Sección 1 Productos */
+  /* Seccion 2 Equipo */
+  /* Seccion 3 Ubicacion e info */
+  /* Animación */
+  /* Footer */
+}
+#base .header {
+  background-color: #DF9C16;
+  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 80%, #FFD600 99%);
+}
+#base .header .mi-logo, #base__pg04 .footer #base .header .mi-logo--footer, #base__pg03 .footer #base .header .mi-logo--footer, #base__pg02 .footer #base .header .mi-logo--footer, #base__pg01 .footer #base .header .mi-logo--footer, #base .header .footer .mi-logo--footer, #base .footer .header .mi-logo--footer {
+  width: 100px;
+  height: auto;
+  padding: 4px 0;
+}
+#base .introi, #base .introi--page4, #base .introi--page3, #base .introi--page2, #base .introi--page1 {
+  height: 300px;
+  width: auto;
+  background-image: url(..//img/bg/front-view-1800px.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+#base .introi__items {
+  background-color: rgba(0, 0, 0, 0.35);
+  text-shadow: rgb(11, 11, 11) 2px 2px 1px;
+}
+#base .introi__items h1 {
+  font: normal 60px/2 "Pacifico", cursive;
+}
+#base .introi__items p {
+  font: italic 32px/1 "Poppins", sans-serif;
+}
+@media (max-width: 768px) {
+  #base .introi__items h1 {
+    font-size: 40px;
+  }
+  #base .introi__items p {
+    font-size: 20px;
+  }
+}
+#base .seccion1 {
+  background-color: white;
+}
+#base .seccion1__items h2 {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base .seccion1 .btn--seccion {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#base .seccion1 .btn--seccion:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+#base .seccion2 {
+  background-color: white;
+}
+#base .seccion2__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base .seccion2 .btn--seccion {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#base .seccion2 .btn--seccion:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+#base .seccion3 {
+  background-color: white;
+}
+#base .seccion3__foto {
+  width: 50%;
+  height: auto;
+}
+#base .seccion3__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base .seccion3 .btn--seccion {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#base .seccion3 .btn--seccion:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+#base .introi--page1 .intro__itemspg1 {
+  background-color: rgba(0, 0, 0, 0.35);
+  text-shadow: rgb(11, 11, 11) 2px 2px 1px;
+}
+#base .introi--page1 .intro__itemspg1 h1 {
+  font: normal 60px/2 "Pacifico", cursive;
+}
+#base .seccion1__pg1 {
+  background-color: white;
+}
+#base .seccion1__pg1 .foto1__pg1 {
+  width: 40%;
+  height: auto;
+}
+#base .seccion1__pg1 .pg1__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base .seccion2__pg1 {
+  background-color: white;
+}
+#base .seccion2__pg1 .pg1__title2 {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base .introi--page2 .intro__itemspg2 {
+  background-color: rgba(0, 0, 0, 0.35);
+  text-shadow: rgb(11, 11, 11) 2px 2px 1px;
+}
+#base .introi--page2 .intro__itemspg2 h1 {
+  font: normal 60px/2 "Pacifico", cursive;
+}
+#base .stockpg1 {
+  background-color: white;
+}
+#base .stockpg1 .pg2__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base .stockpg1 .pg2__item {
+  filter: grayscale(1);
+}
+#base .stockpg1 .pg2__item:hover {
+  filter: none;
+}
+#base .stockpg1 .pg2__btn {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#base .stockpg1 .pg2__btn:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+#base .introi--page3 .intro__itemspg3 {
+  background-color: rgba(0, 0, 0, 0.35);
+  text-shadow: rgb(11, 11, 11) 2px 2px 1px;
+}
+#base .introi--page3 .intro__itemspg3 h1 {
+  font: normal 60px/2 "Pacifico", cursive;
+}
+#base .seccion__pg3 {
+  background-color: white;
+}
+#base .seccion__pg3 .pg3__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base .contactus__pg3 {
+  background-color: #DF9C16;
+}
+#base .pg3__btn {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+  width: 150px;
+}
+#base .pg3__btn:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+@-webkit-keyframes efecto {
+  0% {
+    background-color: #FCDEA4;
+  }
+  50% {
+    background-color: #f6f2f2;
+    transition: ease-in-out;
+  }
+  100% {
+    background-color: #FFD600;
+  }
+}
+@keyframes efecto {
+  0% {
+    background-color: #FCDEA4;
+  }
+  50% {
+    background-color: #f6f2f2;
+    transition: ease-in-out;
+  }
+  100% {
+    background-color: #FFD600;
+  }
+}
+#base .contactus__pg3 {
+  background-color: #F7A400;
+  -webkit-animation: efecto 1s linear 0s infinite alternate;
+          animation: efecto 1s linear 0s infinite alternate;
+}
+#base .introi--page4 .intro__itemspg4 {
+  background-color: rgba(0, 0, 0, 0.35);
+  text-shadow: rgb(11, 11, 11) 2px 2px 1px;
+}
+#base .introi--page4 .intro__itemspg4 h1 {
+  font: normal 60px/2 "Pacifico", cursive;
+}
+#base .contactus__pg4 {
+  background-color: white;
+}
+#base .contactus__pg4 .pg4__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base .contactus__pg4 .pg4__subtitle {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base .contactus__pg4 .pg4__btn {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#base .contactus__pg4 .pg4__btn:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+#base .map__pg4 {
+  background-color: white;
+}
+#base .map__pg4 .pg4__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base .footer {
+  background-color: #DF9C16;
+  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 80%, #FFD600 99%);
+}
+#base .footer .mi-logo--footer {
+  width: 110px;
+}
+#base .footer__info h5 {
+  font: normal 20px/2 "Pacifico", cursive;
+}
+#base .footer__info ul li a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#base__pg01 {
+  background-color: #d9d9d9;
+  background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
+  /* Header */ /* Sección intro */
+  /* Sección 1 Productos */
+  /* Seccion 2 Equipo */
+  /* Seccion 3 Ubicacion e info */
+  /* Animación */
+  /* Footer */
+}
+#base__pg01 .header {
+  background-color: #DF9C16;
+  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 80%, #FFD600 99%);
+}
+#base__pg01 .header .mi-logo, #base__pg04 .footer #base__pg01 .header .mi-logo--footer, #base__pg03 .footer #base__pg01 .header .mi-logo--footer, #base__pg02 .footer #base__pg01 .header .mi-logo--footer, #base__pg01 .header .footer .mi-logo--footer, #base__pg01 .footer .header .mi-logo--footer, #base .footer #base__pg01 .header .mi-logo--footer {
+  width: 100px;
+  height: auto;
+  padding: 4px 0;
+}
+#base__pg01 .introi, #base__pg01 .introi--page4, #base__pg01 .introi--page3, #base__pg01 .introi--page2, #base__pg01 .introi--page1 {
+  height: 300px;
+  width: auto;
+  background-image: url(..//img/bg/front-view-1800px.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+#base__pg01 .introi__items {
+  background-color: rgba(0, 0, 0, 0.35);
+  text-shadow: rgb(11, 11, 11) 2px 2px 1px;
+}
+#base__pg01 .introi__items h1 {
+  font: normal 60px/2 "Pacifico", cursive;
+}
+#base__pg01 .introi__items p {
+  font: italic 32px/1 "Poppins", sans-serif;
+}
+@media (max-width: 768px) {
+  #base__pg01 .introi__items h1 {
+    font-size: 40px;
+  }
+  #base__pg01 .introi__items p {
+    font-size: 20px;
+  }
+}
+#base__pg01 .seccion1 {
+  background-color: white;
+}
+#base__pg01 .seccion1__items h2 {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg01 .seccion1 .btn--seccion {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#base__pg01 .seccion1 .btn--seccion:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+#base__pg01 .seccion2 {
+  background-color: white;
+}
+#base__pg01 .seccion2__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg01 .seccion2 .btn--seccion {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#base__pg01 .seccion2 .btn--seccion:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+#base__pg01 .seccion3 {
+  background-color: white;
+}
+#base__pg01 .seccion3__foto {
+  width: 50%;
+  height: auto;
+}
+#base__pg01 .seccion3__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg01 .seccion3 .btn--seccion {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#base__pg01 .seccion3 .btn--seccion:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+#base__pg01 .introi--page1 .intro__itemspg1 {
+  background-color: rgba(0, 0, 0, 0.35);
+  text-shadow: rgb(11, 11, 11) 2px 2px 1px;
+}
+#base__pg01 .introi--page1 .intro__itemspg1 h1 {
+  font: normal 60px/2 "Pacifico", cursive;
+}
+#base__pg01 .seccion1__pg1 {
+  background-color: white;
+}
+#base__pg01 .seccion1__pg1 .foto1__pg1 {
+  width: 40%;
+  height: auto;
+}
+#base__pg01 .seccion1__pg1 .pg1__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg01 .seccion2__pg1 {
+  background-color: white;
+}
+#base__pg01 .seccion2__pg1 .pg1__title2 {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg01 .introi--page2 .intro__itemspg2 {
+  background-color: rgba(0, 0, 0, 0.35);
+  text-shadow: rgb(11, 11, 11) 2px 2px 1px;
+}
+#base__pg01 .introi--page2 .intro__itemspg2 h1 {
+  font: normal 60px/2 "Pacifico", cursive;
+}
+#base__pg01 .stockpg1 {
+  background-color: white;
+}
+#base__pg01 .stockpg1 .pg2__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg01 .stockpg1 .pg2__item {
+  filter: grayscale(1);
+}
+#base__pg01 .stockpg1 .pg2__item:hover {
+  filter: none;
+}
+#base__pg01 .stockpg1 .pg2__btn {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#base__pg01 .stockpg1 .pg2__btn:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+#base__pg01 .introi--page3 .intro__itemspg3 {
+  background-color: rgba(0, 0, 0, 0.35);
+  text-shadow: rgb(11, 11, 11) 2px 2px 1px;
+}
+#base__pg01 .introi--page3 .intro__itemspg3 h1 {
+  font: normal 60px/2 "Pacifico", cursive;
+}
+#base__pg01 .seccion__pg3 {
+  background-color: white;
+}
+#base__pg01 .seccion__pg3 .pg3__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg01 .contactus__pg3 {
+  background-color: #DF9C16;
+}
+#base__pg01 .pg3__btn {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+  width: 150px;
+}
+#base__pg01 .pg3__btn:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+@keyframes efecto {
+  0% {
+    background-color: #FCDEA4;
+  }
+  50% {
+    background-color: #f6f2f2;
+    transition: ease-in-out;
+  }
+  100% {
+    background-color: #FFD600;
+  }
+}
+#base__pg01 .contactus__pg3 {
+  background-color: #F7A400;
+  -webkit-animation: efecto 1s linear 0s infinite alternate;
+          animation: efecto 1s linear 0s infinite alternate;
+}
+#base__pg01 .introi--page4 .intro__itemspg4 {
+  background-color: rgba(0, 0, 0, 0.35);
+  text-shadow: rgb(11, 11, 11) 2px 2px 1px;
+}
+#base__pg01 .introi--page4 .intro__itemspg4 h1 {
+  font: normal 60px/2 "Pacifico", cursive;
+}
+#base__pg01 .contactus__pg4 {
+  background-color: white;
+}
+#base__pg01 .contactus__pg4 .pg4__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg01 .contactus__pg4 .pg4__subtitle {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg01 .contactus__pg4 .pg4__btn {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#base__pg01 .contactus__pg4 .pg4__btn:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+#base__pg01 .map__pg4 {
+  background-color: white;
+}
+#base__pg01 .map__pg4 .pg4__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg01 .footer {
+  background-color: #DF9C16;
+  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 80%, #FFD600 99%);
+}
+#base__pg01 .footer .mi-logo--footer {
+  width: 110px;
+}
+#base__pg01 .footer__info h5 {
+  font: normal 20px/2 "Pacifico", cursive;
+}
+#base__pg01 .footer__info ul li a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#base__pg02 {
+  background-color: #d9d9d9;
+  background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
+  /* Header */ /* Sección intro */
+  /* Sección 1 Productos */
+  /* Seccion 2 Equipo */
+  /* Seccion 3 Ubicacion e info */
+  /* Animación */
+  /* Footer */
+}
+#base__pg02 .header {
+  background-color: #DF9C16;
+  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 80%, #FFD600 99%);
+}
+#base__pg02 .header .mi-logo, #base__pg04 .footer #base__pg02 .header .mi-logo--footer, #base__pg03 .footer #base__pg02 .header .mi-logo--footer, #base__pg02 .header .footer .mi-logo--footer, #base__pg02 .footer .header .mi-logo--footer, #base .footer #base__pg02 .header .mi-logo--footer, #base__pg01 .footer #base__pg02 .header .mi-logo--footer {
+  width: 100px;
+  height: auto;
+  padding: 4px 0;
+}
+#base__pg02 .introi, #base__pg02 .introi--page4, #base__pg02 .introi--page3, #base__pg02 .introi--page2, #base__pg02 .introi--page1 {
+  height: 300px;
+  width: auto;
+  background-image: url(..//img/bg/front-view-1800px.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+#base__pg02 .introi__items {
+  background-color: rgba(0, 0, 0, 0.35);
+  text-shadow: rgb(11, 11, 11) 2px 2px 1px;
+}
+#base__pg02 .introi__items h1 {
+  font: normal 60px/2 "Pacifico", cursive;
+}
+#base__pg02 .introi__items p {
+  font: italic 32px/1 "Poppins", sans-serif;
+}
+@media (max-width: 768px) {
+  #base__pg02 .introi__items h1 {
+    font-size: 40px;
+  }
+  #base__pg02 .introi__items p {
+    font-size: 20px;
+  }
+}
+#base__pg02 .seccion1 {
+  background-color: white;
+}
+#base__pg02 .seccion1__items h2 {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg02 .seccion1 .btn--seccion {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#base__pg02 .seccion1 .btn--seccion:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+#base__pg02 .seccion2 {
+  background-color: white;
+}
+#base__pg02 .seccion2__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg02 .seccion2 .btn--seccion {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#base__pg02 .seccion2 .btn--seccion:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+#base__pg02 .seccion3 {
+  background-color: white;
+}
+#base__pg02 .seccion3__foto {
+  width: 50%;
+  height: auto;
+}
+#base__pg02 .seccion3__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg02 .seccion3 .btn--seccion {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#base__pg02 .seccion3 .btn--seccion:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+#base__pg02 .introi--page1 .intro__itemspg1 {
+  background-color: rgba(0, 0, 0, 0.35);
+  text-shadow: rgb(11, 11, 11) 2px 2px 1px;
+}
+#base__pg02 .introi--page1 .intro__itemspg1 h1 {
+  font: normal 60px/2 "Pacifico", cursive;
+}
+#base__pg02 .seccion1__pg1 {
+  background-color: white;
+}
+#base__pg02 .seccion1__pg1 .foto1__pg1 {
+  width: 40%;
+  height: auto;
+}
+#base__pg02 .seccion1__pg1 .pg1__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg02 .seccion2__pg1 {
+  background-color: white;
+}
+#base__pg02 .seccion2__pg1 .pg1__title2 {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg02 .introi--page2 .intro__itemspg2 {
+  background-color: rgba(0, 0, 0, 0.35);
+  text-shadow: rgb(11, 11, 11) 2px 2px 1px;
+}
+#base__pg02 .introi--page2 .intro__itemspg2 h1 {
+  font: normal 60px/2 "Pacifico", cursive;
+}
+#base__pg02 .stockpg1 {
+  background-color: white;
+}
+#base__pg02 .stockpg1 .pg2__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg02 .stockpg1 .pg2__item {
+  filter: grayscale(1);
+}
+#base__pg02 .stockpg1 .pg2__item:hover {
+  filter: none;
+}
+#base__pg02 .stockpg1 .pg2__btn {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#base__pg02 .stockpg1 .pg2__btn:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+#base__pg02 .introi--page3 .intro__itemspg3 {
+  background-color: rgba(0, 0, 0, 0.35);
+  text-shadow: rgb(11, 11, 11) 2px 2px 1px;
+}
+#base__pg02 .introi--page3 .intro__itemspg3 h1 {
+  font: normal 60px/2 "Pacifico", cursive;
+}
+#base__pg02 .seccion__pg3 {
+  background-color: white;
+}
+#base__pg02 .seccion__pg3 .pg3__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg02 .contactus__pg3 {
+  background-color: #DF9C16;
+}
+#base__pg02 .pg3__btn {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+  width: 150px;
+}
+#base__pg02 .pg3__btn:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+@keyframes efecto {
+  0% {
+    background-color: #FCDEA4;
+  }
+  50% {
+    background-color: #f6f2f2;
+    transition: ease-in-out;
+  }
+  100% {
+    background-color: #FFD600;
+  }
+}
+#base__pg02 .contactus__pg3 {
+  background-color: #F7A400;
+  -webkit-animation: efecto 1s linear 0s infinite alternate;
+          animation: efecto 1s linear 0s infinite alternate;
+}
+#base__pg02 .introi--page4 .intro__itemspg4 {
+  background-color: rgba(0, 0, 0, 0.35);
+  text-shadow: rgb(11, 11, 11) 2px 2px 1px;
+}
+#base__pg02 .introi--page4 .intro__itemspg4 h1 {
+  font: normal 60px/2 "Pacifico", cursive;
+}
+#base__pg02 .contactus__pg4 {
+  background-color: white;
+}
+#base__pg02 .contactus__pg4 .pg4__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg02 .contactus__pg4 .pg4__subtitle {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg02 .contactus__pg4 .pg4__btn {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#base__pg02 .contactus__pg4 .pg4__btn:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+#base__pg02 .map__pg4 {
+  background-color: white;
+}
+#base__pg02 .map__pg4 .pg4__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg02 .footer {
+  background-color: #DF9C16;
+  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 80%, #FFD600 99%);
+}
+#base__pg02 .footer .mi-logo--footer {
+  width: 110px;
+}
+#base__pg02 .footer__info h5 {
+  font: normal 20px/2 "Pacifico", cursive;
+}
+#base__pg02 .footer__info ul li a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#base__pg03 {
+  background-color: #d9d9d9;
+  background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
+  /* Header */ /* Sección intro */
+  /* Sección 1 Productos */
+  /* Seccion 2 Equipo */
+  /* Seccion 3 Ubicacion e info */
+  /* Animación */
+  /* Footer */
+}
+#base__pg03 .header {
+  background-color: #DF9C16;
+  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 80%, #FFD600 99%);
+}
+#base__pg03 .header .mi-logo, #base__pg04 .footer #base__pg03 .header .mi-logo--footer, #base__pg03 .header .footer .mi-logo--footer, #base__pg03 .footer .header .mi-logo--footer, #base .footer #base__pg03 .header .mi-logo--footer, #base__pg01 .footer #base__pg03 .header .mi-logo--footer, #base__pg02 .footer #base__pg03 .header .mi-logo--footer {
+  width: 100px;
+  height: auto;
+  padding: 4px 0;
+}
+#base__pg03 .introi, #base__pg03 .introi--page4, #base__pg03 .introi--page3, #base__pg03 .introi--page2, #base__pg03 .introi--page1 {
+  height: 300px;
+  width: auto;
+  background-image: url(..//img/bg/front-view-1800px.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+#base__pg03 .introi__items {
+  background-color: rgba(0, 0, 0, 0.35);
+  text-shadow: rgb(11, 11, 11) 2px 2px 1px;
+}
+#base__pg03 .introi__items h1 {
+  font: normal 60px/2 "Pacifico", cursive;
+}
+#base__pg03 .introi__items p {
+  font: italic 32px/1 "Poppins", sans-serif;
+}
+@media (max-width: 768px) {
+  #base__pg03 .introi__items h1 {
+    font-size: 40px;
+  }
+  #base__pg03 .introi__items p {
+    font-size: 20px;
+  }
+}
+#base__pg03 .seccion1 {
+  background-color: white;
+}
+#base__pg03 .seccion1__items h2 {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg03 .seccion1 .btn--seccion {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#base__pg03 .seccion1 .btn--seccion:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+#base__pg03 .seccion2 {
+  background-color: white;
+}
+#base__pg03 .seccion2__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg03 .seccion2 .btn--seccion {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#base__pg03 .seccion2 .btn--seccion:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+#base__pg03 .seccion3 {
+  background-color: white;
+}
+#base__pg03 .seccion3__foto {
+  width: 50%;
+  height: auto;
+}
+#base__pg03 .seccion3__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg03 .seccion3 .btn--seccion {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#base__pg03 .seccion3 .btn--seccion:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+#base__pg03 .introi--page1 .intro__itemspg1 {
+  background-color: rgba(0, 0, 0, 0.35);
+  text-shadow: rgb(11, 11, 11) 2px 2px 1px;
+}
+#base__pg03 .introi--page1 .intro__itemspg1 h1 {
+  font: normal 60px/2 "Pacifico", cursive;
+}
+#base__pg03 .seccion1__pg1 {
+  background-color: white;
+}
+#base__pg03 .seccion1__pg1 .foto1__pg1 {
+  width: 40%;
+  height: auto;
+}
+#base__pg03 .seccion1__pg1 .pg1__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg03 .seccion2__pg1 {
+  background-color: white;
+}
+#base__pg03 .seccion2__pg1 .pg1__title2 {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg03 .introi--page2 .intro__itemspg2 {
+  background-color: rgba(0, 0, 0, 0.35);
+  text-shadow: rgb(11, 11, 11) 2px 2px 1px;
+}
+#base__pg03 .introi--page2 .intro__itemspg2 h1 {
+  font: normal 60px/2 "Pacifico", cursive;
+}
+#base__pg03 .stockpg1 {
+  background-color: white;
+}
+#base__pg03 .stockpg1 .pg2__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg03 .stockpg1 .pg2__item {
+  filter: grayscale(1);
+}
+#base__pg03 .stockpg1 .pg2__item:hover {
+  filter: none;
+}
+#base__pg03 .stockpg1 .pg2__btn {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#base__pg03 .stockpg1 .pg2__btn:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+#base__pg03 .introi--page3 .intro__itemspg3 {
+  background-color: rgba(0, 0, 0, 0.35);
+  text-shadow: rgb(11, 11, 11) 2px 2px 1px;
+}
+#base__pg03 .introi--page3 .intro__itemspg3 h1 {
+  font: normal 60px/2 "Pacifico", cursive;
+}
+#base__pg03 .seccion__pg3 {
+  background-color: white;
+}
+#base__pg03 .seccion__pg3 .pg3__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg03 .contactus__pg3 {
+  background-color: #DF9C16;
+}
+#base__pg03 .pg3__btn {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+  width: 150px;
+}
+#base__pg03 .pg3__btn:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+@keyframes efecto {
+  0% {
+    background-color: #FCDEA4;
+  }
+  50% {
+    background-color: #f6f2f2;
+    transition: ease-in-out;
+  }
+  100% {
+    background-color: #FFD600;
+  }
+}
+#base__pg03 .contactus__pg3 {
+  background-color: #F7A400;
+  -webkit-animation: efecto 1s linear 0s infinite alternate;
+          animation: efecto 1s linear 0s infinite alternate;
+}
+#base__pg03 .introi--page4 .intro__itemspg4 {
+  background-color: rgba(0, 0, 0, 0.35);
+  text-shadow: rgb(11, 11, 11) 2px 2px 1px;
+}
+#base__pg03 .introi--page4 .intro__itemspg4 h1 {
+  font: normal 60px/2 "Pacifico", cursive;
+}
+#base__pg03 .contactus__pg4 {
+  background-color: white;
+}
+#base__pg03 .contactus__pg4 .pg4__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg03 .contactus__pg4 .pg4__subtitle {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg03 .contactus__pg4 .pg4__btn {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#base__pg03 .contactus__pg4 .pg4__btn:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+#base__pg03 .map__pg4 {
+  background-color: white;
+}
+#base__pg03 .map__pg4 .pg4__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg03 .footer {
+  background-color: #DF9C16;
+  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 80%, #FFD600 99%);
+}
+#base__pg03 .footer .mi-logo--footer {
+  width: 110px;
+}
+#base__pg03 .footer__info h5 {
+  font: normal 20px/2 "Pacifico", cursive;
+}
+#base__pg03 .footer__info ul li a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#base__pg04 {
+  background-color: #d9d9d9;
+  background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
+  /* Header */ /* Sección intro */
+  /* Sección 1 Productos */
+  /* Seccion 2 Equipo */
+  /* Seccion 3 Ubicacion e info */
+  /* Animación */
+  /* Footer */
+}
+#base__pg04 .header {
+  background-color: #DF9C16;
+  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 80%, #FFD600 99%);
+}
+#base__pg04 .header .mi-logo, #base__pg04 .header .footer .mi-logo--footer, #base__pg04 .footer .header .mi-logo--footer, #base .footer #base__pg04 .header .mi-logo--footer, #base__pg01 .footer #base__pg04 .header .mi-logo--footer, #base__pg02 .footer #base__pg04 .header .mi-logo--footer, #base__pg03 .footer #base__pg04 .header .mi-logo--footer {
+  width: 100px;
+  height: auto;
+  padding: 4px 0;
+}
+#base__pg04 .introi, #base__pg04 .introi--page4, #base__pg04 .introi--page3, #base__pg04 .introi--page2, #base__pg04 .introi--page1 {
+  height: 300px;
+  width: auto;
+  background-image: url(..//img/bg/front-view-1800px.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+#base__pg04 .introi__items {
+  background-color: rgba(0, 0, 0, 0.35);
+  text-shadow: rgb(11, 11, 11) 2px 2px 1px;
+}
+#base__pg04 .introi__items h1 {
+  font: normal 60px/2 "Pacifico", cursive;
+}
+#base__pg04 .introi__items p {
+  font: italic 32px/1 "Poppins", sans-serif;
+}
+@media (max-width: 768px) {
+  #base__pg04 .introi__items h1 {
+    font-size: 40px;
+  }
+  #base__pg04 .introi__items p {
+    font-size: 20px;
+  }
+}
+#base__pg04 .seccion1 {
+  background-color: white;
+}
+#base__pg04 .seccion1__items h2 {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg04 .seccion1 .btn--seccion {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#base__pg04 .seccion1 .btn--seccion:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+#base__pg04 .seccion2 {
+  background-color: white;
+}
+#base__pg04 .seccion2__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg04 .seccion2 .btn--seccion {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#base__pg04 .seccion2 .btn--seccion:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+#base__pg04 .seccion3 {
+  background-color: white;
+}
+#base__pg04 .seccion3__foto {
+  width: 50%;
+  height: auto;
+}
+#base__pg04 .seccion3__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg04 .seccion3 .btn--seccion {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#base__pg04 .seccion3 .btn--seccion:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+#base__pg04 .introi--page1 .intro__itemspg1 {
+  background-color: rgba(0, 0, 0, 0.35);
+  text-shadow: rgb(11, 11, 11) 2px 2px 1px;
+}
+#base__pg04 .introi--page1 .intro__itemspg1 h1 {
+  font: normal 60px/2 "Pacifico", cursive;
+}
+#base__pg04 .seccion1__pg1 {
+  background-color: white;
+}
+#base__pg04 .seccion1__pg1 .foto1__pg1 {
+  width: 40%;
+  height: auto;
+}
+#base__pg04 .seccion1__pg1 .pg1__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg04 .seccion2__pg1 {
+  background-color: white;
+}
+#base__pg04 .seccion2__pg1 .pg1__title2 {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg04 .introi--page2 .intro__itemspg2 {
+  background-color: rgba(0, 0, 0, 0.35);
+  text-shadow: rgb(11, 11, 11) 2px 2px 1px;
+}
+#base__pg04 .introi--page2 .intro__itemspg2 h1 {
+  font: normal 60px/2 "Pacifico", cursive;
+}
+#base__pg04 .stockpg1 {
+  background-color: white;
+}
+#base__pg04 .stockpg1 .pg2__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg04 .stockpg1 .pg2__item {
+  filter: grayscale(1);
+}
+#base__pg04 .stockpg1 .pg2__item:hover {
+  filter: none;
+}
+#base__pg04 .stockpg1 .pg2__btn {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#base__pg04 .stockpg1 .pg2__btn:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+#base__pg04 .introi--page3 .intro__itemspg3 {
+  background-color: rgba(0, 0, 0, 0.35);
+  text-shadow: rgb(11, 11, 11) 2px 2px 1px;
+}
+#base__pg04 .introi--page3 .intro__itemspg3 h1 {
+  font: normal 60px/2 "Pacifico", cursive;
+}
+#base__pg04 .seccion__pg3 {
+  background-color: white;
+}
+#base__pg04 .seccion__pg3 .pg3__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg04 .contactus__pg3 {
+  background-color: #DF9C16;
+}
+#base__pg04 .pg3__btn {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+  width: 150px;
+}
+#base__pg04 .pg3__btn:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+@keyframes efecto {
+  0% {
+    background-color: #FCDEA4;
+  }
+  50% {
+    background-color: #f6f2f2;
+    transition: ease-in-out;
+  }
+  100% {
+    background-color: #FFD600;
+  }
+}
+#base__pg04 .contactus__pg3 {
+  background-color: #F7A400;
+  -webkit-animation: efecto 1s linear 0s infinite alternate;
+          animation: efecto 1s linear 0s infinite alternate;
+}
+#base__pg04 .introi--page4 .intro__itemspg4 {
+  background-color: rgba(0, 0, 0, 0.35);
+  text-shadow: rgb(11, 11, 11) 2px 2px 1px;
+}
+#base__pg04 .introi--page4 .intro__itemspg4 h1 {
+  font: normal 60px/2 "Pacifico", cursive;
+}
+#base__pg04 .contactus__pg4 {
+  background-color: white;
+}
+#base__pg04 .contactus__pg4 .pg4__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg04 .contactus__pg4 .pg4__subtitle {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg04 .contactus__pg4 .pg4__btn {
+  display: inline-block;
+  width: 120px;
+  padding: 4px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#base__pg04 .contactus__pg4 .pg4__btn:hover {
+  color: black;
+  background-color: #FCDEA4;
+}
+#base__pg04 .map__pg4 {
+  background-color: white;
+}
+#base__pg04 .map__pg4 .pg4__title {
+  font: normal 32px/1 "Pacifico", cursive;
+}
+#base__pg04 .footer {
+  background-color: #DF9C16;
+  background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 80%, #FFD600 99%);
+}
+#base__pg04 .footer .mi-logo--footer {
+  width: 110px;
+}
+#base__pg04 .footer__info h5 {
+  font: normal 20px/2 "Pacifico", cursive;
+}
+#base__pg04 .footer__info ul li a:hover {
+  color: black;
+  text-decoration: underline;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <!-- Logo -->
+    <link rel="shortcut icon" href="../img/logo400px.png">
+
+    <!-- Hoja de estilo -->
+    <link rel="stylesheet" href="../sass/main.css">
+
+    <!-- Tipografía: Pacific y Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- Link con libreria wow animate -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+
+<body id="base__pg04">
+    <!-- Header -->
+    <header class="header container-fluid bg-color-propio">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid align-items-end">
+              <a class="navbar-brand" href="../index.html">
+                <img src="../img/logo400px.png" class="mi-logo" alt="Logo Cecil Pastelería">
+              </a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contacto</a>
+                  </li>
+
+                </ul>
+                
+              </div>
+            </div>
+        </nav>        
+        
+    </header>
+
+    <!--Main-->
+    <main class="container-fluid bg-color-seccion">
+        <!-- Intro -->
+        <div class="introi--page4 row p-2 mb-4 text-white bg-dark">
+            <div class="intro__itemspg4 col-fluid px-0 animate__animated animate__zoomIn">
+              <h1 class="display-4 text-center py-4 mt-2 animate__animated animate__zoomIn">Contacto</h1>                            
+            </div>
+        </div>
+
+        <div class="row justify-content-center pb-4">
+                                  
+            <!-- Sección info de contacto y formulario -->
+            <section class="contactus__pg4 row justify-content-center border-bottom  col-md-10 rounded pt-4 pb-2 mt-4">
+                <h2 class="pg4__title text-center py-2">Contactate con nosotros</h2>
+
+                <div class="col-md-5 col-sm-4">
+                    <p class="text-justify">Dejanos tu mensaje por este medio o a través de nuestras redes. Muchas gracias!</p>           
+                    
+                    <nav>           
+                        <ul class="contactus__info">        
+                            <li>Tel: 011-55555555</li>
+                            <li> <!-- Aqui debe ir el link Whatsapp, aun no lo tengo -->
+                                <img src="../img/redes/whatsapp.png" alt="Whatsapp" width="24"> 011-55665222
+                            </li>                    
+                        </ul>                   
+        
+                        <h3 class="pg4__subtitle text-justify fs-4 pt-3 pb-2">Seguinos en nuestras redes</h3>
+                
+                        <ul class="contactus__info">                        
+                            <li class="lh-lg">
+                                <a href="https://www.instagram.com/cecil_pasteleria/" target="_blank" class="text-reset text-decoration-none">
+                                    <img src="../img/redes/Instagram.png" alt="Instagram" width="24"> Instagram
+                                </a>
+                            </li>                        
+                            <li class="lh-lg">
+                                <a href="https://www.facebook.com/CecilPasteleria/" target="_blank" class="text-reset text-decoration-none">
+                                    <img src="../img/redes/facebook.png" alt="Facebook" width="24"> Facebook
+                                </a>
+                            </li>
+                        </ul>                
+                    </nav>
+                </div>
+        
+                <div class="col-md-5 col-sm-4">
+                    <form action="enviar.php" method="get">
+                        <fieldset class="bg-light m-1 py-4 px-3 rounded">                        
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                                <input type="First name" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                            </div>
+                            
+                            <nav class="row justify-content-center">                        
+                                <a href="./pages/productos.html" class="pg4__btn ">Enviar</a>
+                            </nav>
+                        </fieldset>
+        
+                    </form>
+                </div>                                
+                
+            </section>
+
+            <!-- Sección ubicacion e info -->
+            <section class="map__pg4 row col-10 justify-content-center rounded border-bottom py-4 mt-4">
+                <h2 class="pg4__title text-center pt-3 pb-2">Dónde encontrarnos</h2>
+
+                <div class="card col-md-8">
+                    <div class="card-body">         
+                        <p class="card-text fs-6 fst-italic">Encontranos en Sgto. Cabral N° 94, de Míercoles a Domingo de 9 a 13hs y de 16 a 20hs.</p>        
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13090.208046965412!2d-58.5623783!3d-34.8925942!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28d9836b9e158835!2sCecil%20pasteler%C3%ADa!5e0!3m2!1ses-419!2sar!4v1656091362969!5m2!1ses-419!2sar" width="500" height="300" style="border:8;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="card-img-bottom"></iframe>
+                </div>                     
+                
+            </section>        
+        </div>
+
+
+    </main> 
+
+    <!-- footer -->
+    <footer class="footer container-fluid bg-color-propio">
+        <nav class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pt-4">             
+            <div class="col mb-3">
+                <a href="../index.html" class="d-flex justify-content-center align-items-start mb-3">
+                    <img src="../img/logo400px.png" class="mi-logo--footer" alt="Logo Cecil Pastelería">
+                </a>
+                <p class="text-muted text-center px-2">&copy;SBar - 2022</p>
+            </div>
+            
+            <div class="col-auto mb-3">
+                        
+            </div>
+                
+            <div class="info__footer col mb-3">
+                <h5 class="text-center lh-base">Enlaces</h5>
+                <ul class="nav flex-column fs-6 text-center">
+                    <li class="nav-item mb-2">
+                        <a href="../index.html" class="nav-link p-0 text-muted">Inicio</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="../pages/nosotros.html" class="nav-link p-0 text-muted">Nosotros</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="../pages/productos.html" class="nav-link p-0 text-muted">Productos</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="../pages/servicios.html" class="nav-link p-0 text-muted">Servicios</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="../pages/contacto.html" class="nav-link p-0 text-muted">Contacto</a>
+                    </li>
+                </ul>
+                
+            </div>
+            
+            <div class="info__footer col mb-3">
+                <h5 class="text-center lh-base">Dónde encontrarnos</h5>
+                <ul class="nav flex-column fs-6 text-center">
+                    <li class="nav-item mb-2">
+                        <a href="https://www.google.com/maps/place/Sgto.+Cabral+94,+B1806EJA+Trist%C3%A1n+Su%C3%A1rez,+Provincia+de+Buenos+Aires/@-34.8925917,-58.5623751,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcd9dc650ec35d:0xe5d9486398834dd6!8m2!3d-34.8925917!4d-58.5623751" class="nav-link p-0 text-muted">Sgto. Cabral 94 - Tristán Suarez - GBA Sur</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-muted">Tel: 011-152065952</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-muted">Whatsapp</a>
+                     </li>              
+                </ul>
+            </div>
+            
+            <div class="info__footer col mb-3">
+                <h5 class="text-center  lh-base">Seguinos</h5>
+                <ul class="nav flex-column fs-6 text-center">
+                     <li class="nav-item mb-2">
+                        <a href="https://www.instagram.com/cecil_pasteleria/" class="nav-link p-0 text-muted">Instagram</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="https://www.facebook.com/CecilPasteleria/" class="nav-link p-0 text-muted">Facebook</a>
+                    </li>                
+                </ul>
+            </div>
+        </nav>
+    </footer>    
+<!-- script boostrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<style>.footer,.generic-footer{margin-bottom:98px}@media (min-width:374px){.footer,.generic-footer{margin-bottom:78px}}@media (min-width:546px){.footer,.generic-footer{margin-bottom:56px}}@media (min-width:1055px){.footer,.generic-footer{margin-bottom:0}}.disclaimer{position:fixed;z-index:9999999;bottom:0;right:0;border-top:2px solid #ff5c62;text-align:center;font-size:14px;font-weight:400;background-color:#fff;padding:5px 10px 5px 10px}.disclaimer a:hover{text-decoration:underline}@media (min-width:1052px){.disclaimer{text-align:right;border-left:2px solid red;border-top-left-radius:10px}}@media (min-width:1920px){.disclaimer{width:60%}}</style><div class="disclaimer">We support Ukraine and condemn war. Push Russian government to act against war. Be brave, vocal and show your support to Ukraine. Follow the latest news <a title="https://www.bbc.com/news/live/world-europe-60517447" target="_blank" href="https://www.bbc.com/news/live/world-europe-60517447" style="color: black;"><b>HERE</b></a></div></body>
+</html>

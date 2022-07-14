@@ -1,0 +1,46 @@
+// Mapeo de colores
+
+$colores: (
+    primario: #d9d9d9,
+    // 1rio-complementario: #f6f2f2,
+    // secundario: #DF9C16,
+    // 2rio-complemetario1: #F7A400,
+    // 2rio-complemetario2: #FFD600,
+    // negro: black,
+    // blanco: white,
+    // hover: #FCDEA4,
+    // opacity-bg: rgba(0, 0, 0, 0.35),
+    // text-shadow1: rgb(11, 11, 11) 2px 2px 1px,
+    // gradiente-navbar:linear-gradient(90deg, #DF9C16 0%, #F7A400 80%, #FFD600 99%),
+    gradiente-body: linear-gradient(315deg, #b13939 0%, #304078 74%),
+);
+
+
+//Tipografia
+
+// $fuente-acento-intro: normal 60px/2 'Pacifico', cursive;
+// $fuente-subtitle-intro: italic 32px/1 'Poppins', sans-serif;
+// $fuente-acento-seccion: normal 32px/1 'Pacifico', cursive;
+// $fuente-acento-footer: normal 20px/2 'Pacifico', cursive;
+
+
+//Media
+$tablet:768px;
+
+// Mixin boton
+@mixin btn {
+    display: inline-block;
+    width: 120px;
+    padding: 4px 8px;
+    border-radius: 14px;
+    text-decoration: none;
+    text-align: center;    
+    color: map-get($colores, blanco);
+    background-color: map-get($colores, negro);
+
+    &:hover {
+        color: map-get($colores, negro);
+        background-color: map-get($colores, hover);
+
+    } 
+}

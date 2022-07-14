@@ -1,0 +1,11 @@
+/* Header */
+.header {
+    background-color: map-get($colores, secundario);
+    background-image: map-get($colores, gradiente-navbar);
+
+    .mi-logo {
+        width: 50px;
+        height: auto;
+        padding: 4px 0;
+    }
+}

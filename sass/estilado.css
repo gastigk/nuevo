@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body {
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+}
+
+.header .menu .miLogo{
+    width: auto;
+    height: 60px;
+    border-radius: 20%;
+    padding: 5px;
+}
+
+.header .menu .nombre{
+    font-family: 'Parisienne', cursive;
+    color: gold;
+}
+  
+
+.header .menu a{
+    color: whitesmoke;
+    padding: 5px;
+    margin-right: 25px;
+    border-radius: 50px;
+    font-family: 'Caveat', cursive;
+    text-align: start;
+}
+
+.header .menu .submenu{
+    color: black;
+    font-family: 'Caveat', cursive;
+    text-align: start;
+}
+
+
+.encabezado {
+    height: 300px;
+    width: auto;
+    background-image: url(../img/acurelasCampo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezado .nombre{
+    font-family: 'Parisienne', cursive;
+    color: gold;
+}
+
+.galeria{
+    text-align: center;
+}
+
+.galeria__items{
+    color: #BBF0F3;
+}
+
+.galeria .btn{
+    display: inline-block;
+    width: auto;
+    border-radius: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: #BBF0F3;
+    background-color: #7f5a83;
+  }
+
+
+.nosotras{
+    color: #BBF0F3;
+    text-align: center;
+}
+
+.nosotras .card-title{
+    color: gold;
+}
+
+.nosotras .card-text{
+    color: black;
+}
+
+.clases{
+    text-align: center;
+    background-color: #BBF0F3;
+}
+.clases .btn{
+    display: inline-block;
+    width: auto;
+    border-radius: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: black;
+  }
+
+.footer {
+    color: #BBF0F3;
+}
+
+.footer .nombre{
+    font-family: 'Parisienne', cursive;
+    color: gold;
+    text-decoration: none;
+}

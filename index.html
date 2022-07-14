@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Frida Kuster | Artista, especialista en acurelas y pasteles</title>
+
+    <meta name="description" content="Tu primer clase de dibujo y pintura con acuarelas o pasteles. Producción de obras a medida, diferentes técnicas. Asesoría de intervención de arte en espacios.">
+    <meta name="keywords" content="arte, artista, dibujante, dibujos, astel, acuarelas, clases presenciales, clases virtuales, eventos de arte, Frida, Kuster">
+    
+    <!-- Hoja de estilo-->
+    <link rel="stylesheet" href="./sass/estilado.css">
+
+    <!-- Tipografía: Parisienne y Caveat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Parisienne&display=swap" rel="stylesheet">
+
+    <!-- Link con libreria wow animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  </head>
+  <body id="body">
+    <!-- start header --> 
+    <header class="header container-fluid">
+      <nav class="navbar navbar-expand-lg"> 
+        <div class="menu container-fluid align-items-end">
+          <a class="navbar-brand" href="./index.html">
+            <h1 class="nombre lead">Frida Kuster</h1>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link fw-bold" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-bold" data-bs-toggle="dropdown" aria-expanded="false">Mi Galeria</a>
+                <ul class="dropdown-menu">
+                    <li><a class="submenu dropdown-item fw-bold" href="./pages/acuarelas.html">Acurelas</a></li>
+                    <li><a class="submenu dropdown-item fw-bold" href="./pages/pasteles.html">Pastel</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="./pages/clases.html">Clases</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="./pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>        
+    </header>
+    <!-- end header --> 
+
+    <!-- start main --> 
+    <main class="container-fluid">
+      <!-- start encabezado --> 
+      <div class="encabezado row p-2 mb-4 text-white bg-dark ">
+          <div class="bg-dark bg-opacity-25 col-fluid px-0 animate__animated animate__zoomIn">
+            <h1 class="nombre lead display-4 text-center mt-2">Frida Kuster</h1>
+            <p class="lead text-center lh-lg mt-4 mb-2">Dibujo, pintura, artista y docente </p>              
+          </div>
+      </div>
+      <!-- end encabezado --> 
+      <div class="row justify-content-center pb-4">
+      <!-- start galeria -->             
+      <section class="galeria d-flex row align-items-center col-10 py-2 rounded">
+        <div class="col d-flex-row p-3">
+            <h2 class="galeria__items display-1">Mi galeria  </h2>
+            <p class="galeria__items lead">Pintura y dibujo. Diseños inspirados y pensados para agasajar.</p>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Pintura con acuarelas</h5>
+                    <a href="#" class="btn btn-primary">ver galeria</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Dibujo con pastel</h5>
+                    <a href="#" class="btn btn-primary">ver galeria</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 py-3">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/Background.png" class="d-block w-100" alt="Pintura en acuarelas">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/Background (1).png" class="d-block w-100" alt="Pintura en acuarelas">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/Background (2).png" class="d-block w-100" alt="Pintura en acuarelas">
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Próxima</span>
+            </button>
+          </div>    
+        </div>
+      </section>
+      <!-- end galeria -->               
+      <!-- start nosotras --> 
+      <section class="nosotras row justify-content-center col-10 rounded pt-4 pb-2 mt-4">
+          <h2 class="text-center pt-2">Quiénes somos</h2>
+                          
+        <div class=" col-9 align-items-center">
+            <p class="text-center">Somos la familia Kuster, sabemos cómo crear un espacios artísticos.</p>
+            
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+
+            <div class="col">
+              <div class="card">
+                <img src="./img/pintando2.webp" class="card-img-top p-2" alt="Frida Kuster">
+                <div class="card-body">
+                  <h5 class="card-title text-center fw-bold">Frida</h5>
+                  <p class="card-text text-center fst-italic">Artista profesional</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card">
+                  <img src="./img/pintando4.jpg" class="card-img-top p-2" alt="Micaela Kuster">
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-bold">Micaela</h5>
+                  <p class="card-text text-center fst-italic">Organizadora de eventos</p>
+                </div>
+              </div>
+            </div>                                   
+          </div>                                   
+        </div>
+      </section>
+      <!-- end nosotras --> 
+      <!-- start clases -->
+      <section class="clases row col-10 align-items-center rounded pt-4 pb-2 mt-4">
+        <div class="pt-2">
+          <h2 class="display-3">Clases</h2>
+          <p class="py-2"> Clases presenciales o virtuales, en grupo o individuales, por proyectos y escuela de arte.</p>
+          <nav class="align-items-end py-2">                        
+            <a href="./pages/clases.html" class="btn">quiero saber más</a>
+          </nav>                  
+        </div>
+      </section>        
+      </div>
+
+    </main> 
+    <!-- end main --> 
+    <!-- start footer -->
+    <footer class="footer container-fluid">
+        <nav class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pt-4">             
+            <div class="col mb-3">
+                <a href="./index.html" class="d-flex justify-content-center align-items-start mb-3">
+                  <h1 class="nombre lead">Frida Kuster</h1>
+                </a>
+            </div>
+          
+            <div class="col-auto mb-3">                   
+            </div>
+                
+            <div class="footer__info col mb-3">
+                <h5 class="text-center lh-base">Enlaces</h5>
+                <ul class="nav flex-column fs-6 text-center">
+                    <li class="nav-item mb-2">
+                        <a href="./index.html" class="nav-link p-0 text-muted">Inicio</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="./pages/nosotros.html" class="nav-link p-0 text-muted">Nosotros</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="./pages/productos.html" class="nav-link p-0 text-muted">Productos</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="./pages/servicios.html" class="nav-link p-0 text-muted">Servicios</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="./pages/contacto.html" class="nav-link p-0 text-muted">Contacto</a>
+                    </li>
+                </ul>
+                
+            </div>
+            
+            <div class="footer__info col mb-3">
+                <h5 class="text-center lh-base">Dónde encontrarnos</h5>
+                <ul class="nav flex-column fs-6 text-center">
+                    <li class="nav-item mb-2">
+                        <a href="https://www.google.com/maps/place/La+Paz+2461,+Villa+Luzuriaga,+Provincia+de+Buenos+Aires/@-34.6671962,-58.5770222,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcc7c984b77e69:0xbe4d1a7cff6df640!8m2!3d-34.6671962!4d-58.5748282" class="nav-link p-0 text-muted">La Paz 2461 (V. Luzuriaga) - Buenos Aires</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-muted">Tel: +54 9 11 155 555 5555</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-muted">Whatsapp</a>
+                    </li>              
+                </ul>
+            </div>
+            
+            <div class="footer__info col mb-3">
+                <h5 class="text-center  lh-base">Seguinos</h5>
+                <ul class="nav flex-column fs-6 text-center">
+                    <li class="nav-item mb-2">
+                        <a href="https://www.instagram.com/" class="nav-link p-0 text-muted">Instagram</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="https://www.facebook.com/" class="nav-link p-0 text-muted">Pinterest</a>
+                    </li>                
+                </ul>
+            </div>
+        </nav>
+    </footer>
+    <!-- end footer -->    
+    <!-- script boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
